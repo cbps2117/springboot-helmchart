@@ -77,8 +77,8 @@ ingress:
 #   #   cpu: 100m
 #   #   memory: 128Mi
 
-# autoscaling:
-#   enabled: false
+autoscaling:
+  enabled: false
 #   minReplicas: 1
 #   maxReplicas: 100
 #   targetCPUUtilizationPercentage: 80
